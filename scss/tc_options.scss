@@ -1,0 +1,36 @@
+.clear {
+	clear: both;
+	float: none;
+}
+.tc-options-one-third {
+	width: 28%;
+	float: left;
+	padding: 5px;
+}
+
+.tc_color_options {
+	width: 300px;
+}
+
+.tc-color-picker {
+	@extend .clear;
+	width: 200px;
+	padding: 5px;
+    overflow: hidden;
+	label {
+		float: left;
+	}
+	input {
+		float: right;
+        margin-left: 10px;
+	}
+}
+
+.tc-logos {
+	text-align:center;
+}
+
+.one-half {
+	width: 50%;
+	float: left;
+}

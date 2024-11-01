@@ -1,0 +1,27 @@
+.tidyclub-calendar {
+	.tc-current-date-display {
+		
+	}
+	.calendar-month {
+		tr {
+			//
+		}
+		.tc-header-label {
+			text-align: center;
+		}
+		.calendar-week {
+			.tc-day {
+				text-align: center;
+				&.tc-no-event {
+					//
+				}
+				&.tc-has-event {
+					//
+				}
+				.day-of-month {
+					//
+				}
+			}
+		}
+	}
+}}
